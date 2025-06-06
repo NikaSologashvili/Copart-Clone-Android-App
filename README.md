@@ -78,9 +78,6 @@ com.example.copartclone
 
 ---
 
-## 📸 Screenshots (Optional)
-
-_Add screenshots here if available._
 
 ---
 
