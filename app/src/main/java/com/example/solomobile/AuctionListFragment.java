@@ -41,6 +41,9 @@ public class AuctionListFragment extends Fragment {
         dummyCars.add(new Car("2021 Hyundai Elantra", "$15,200", "2d 15h", R.drawable.elantrafront));
         dummyCars.add(new Car("2010 Jeep Wrangler", "$7,000", "9d 01h", R.drawable.jeep_front));
         dummyCars.add(new Car("2018 Toyota Camry", "$12,500", "3d 05h", R.drawable.campry_front));
+        dummyCars.add(new Car("2015 Jeep Renegade", "$11,200", "10d 01h", R.drawable.jeep_two));
+        dummyCars.add(new Car("2015 BMW M 3", "$34,000", "4d 20h", R.drawable.bmw_m3));
+        dummyCars.add(new Car("2018 Toyota Camry", "$16,500", "3d 05h", R.drawable.camry));
 
         adapter = new CarAuctionAdapter(dummyCars, new CarAuctionAdapter.OnItemClickListener() {
             @Override

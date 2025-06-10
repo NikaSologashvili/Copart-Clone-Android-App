@@ -35,7 +35,9 @@ public class HomeFragment extends Fragment {
         dummyCars.add(new Car("2020 Honda Civic", "$12,500", "2d 10h", R.drawable.cicvi_front));
         dummyCars.add(new Car("2017 Ford F-150", "$21,000", "5d 03h", R.drawable.ford_front));
         dummyCars.add(new Car("2019 Tesla Model 3", "$30,000", "0d 23h", R.drawable.tesla_front));
-
+        dummyCars.add(new Car("2015 Jeep Renegade", "$11,200", "10d 01h", R.drawable.jeep_two));
+        dummyCars.add(new Car("2015 BMW M 3", "$34,000", "4d 20h", R.drawable.bmw_m3));
+        dummyCars.add(new Car("2018 Toyota Camry", "$16,500", "3d 05h", R.drawable.camry));
         adapter = new CarAuctionAdapter(dummyCars, new CarAuctionAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Car car) {

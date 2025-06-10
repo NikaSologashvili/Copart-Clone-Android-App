@@ -41,10 +41,14 @@ public class MyBidsWatchlistFragment extends Fragment {
         List<Car> myBidsCars = new ArrayList<>();
         myBidsCars.add(new Car("2016 Mercedes-Benz C-Class", "$18,000", "0d 02h (Losing)", R.drawable.mercedes_front));
         myBidsCars.add(new Car("2020 Honda Civic", "$12,600", "2d 09h (Winning)", R.drawable.cicvi_front)); // Corrected typo here, assuming it was cicvi_front
-
+        myBidsCars.add(new Car("2015 Jeep Renegade", "$11,200", "10d 01h", R.drawable.jeep_two));
+        myBidsCars.add(new Car("2015 BMW M 3", "$34,000", "4d 20h", R.drawable.bmw_m3));
+        myBidsCars.add(new Car("2018 Toyota Camry", "$16,500", "3d 05h", R.drawable.camry));
         List<Car> watchlistCars = new ArrayList<>();
         watchlistCars.add(new Car("2019 Tesla Model 3", "$30,000", "0d 23h", R.drawable.tesla_front));
         watchlistCars.add(new Car("2010 Jeep Wrangler", "$7,000", "9d 01h", R.drawable.jeep_front));
+        myBidsCars.add(new Car("2015 BMW M 3", "$34,000", "4d 20h", R.drawable.bmw_m3));
+
 
         adapter = new CarAuctionAdapter(myBidsCars, new CarAuctionAdapter.OnItemClickListener() {
             @Override
